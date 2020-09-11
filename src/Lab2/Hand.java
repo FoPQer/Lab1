@@ -9,6 +9,6 @@ public class Hand {
 
     Hand() {
         int g = dl();
-        System.out.println(g);
+        System.out.println("Длина руки: " + g);
     }
 }

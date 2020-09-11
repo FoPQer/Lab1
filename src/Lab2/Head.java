@@ -7,12 +7,13 @@ public class Head {
 
     String say() {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите слово, что бы сказать");
         word = sc.nextLine();
         return word;
     }
 
     public Head() {
         String g = say();
-        System.out.println(g);
+        System.out.println("Гоша сказал: " + g);
     }
 }

@@ -10,6 +10,6 @@ public class Leg {
 
     public Leg() {
         int g = hod();
-        System.out.println(g);
+        System.out.println("Гоша прошел " + g + " метр");
     }
 }

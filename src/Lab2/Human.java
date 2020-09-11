@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Human {
     private int old = 30;
-    private String name = "Gosha";
+    private String name = "Гоша";
 
-    public int Job() {
+    public int Job()
+    {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите переменные для работы");
         int a = sc.nextInt();
         int b = sc.nextInt();
         return a + b;
@@ -20,6 +22,6 @@ public class Human {
     public Human() {
         int g = Job();
         String gg = sayname();
-        System.out.println(g + ' ' + gg);
+        System.out.println("Результат работы " + g + " Имя человека: " + gg);
     }
 }

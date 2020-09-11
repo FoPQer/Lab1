@@ -1,4 +1,4 @@
-package Lab3;
+package Lab2;
 
 public class Leg {
     int rast = 0;
